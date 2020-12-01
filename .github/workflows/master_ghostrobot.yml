@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'ghostrobot'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9d6809b120064a019cef2c08d5d303bd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0abb0c6cd41f4f889ce0c04aed1e8006 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
